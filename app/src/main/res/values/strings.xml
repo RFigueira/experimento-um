@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">experimento-um</string>
+    <string name="title_main">Notification tipos:</string>
+    <string name="title_experimento1">Tipo 1</string>
+    <string name="title_experimento2">Tipo 2</string>
+    <string name="title_experimento3">Tipo 3</string>
+    <string name="title_experimento4">Tipo 4</string>
+    <string name="title_activity_atividade2">Atividade2</string>
+    <string name="bt_experimento1">Lançar tipo 1</string>
+    <string name="bt_experimento2">Lançar tipo 2</string>
+    <string name="bt_experimento3">Lançar tipo 3</string>
+    <string name="bt_experimento4">Lançar tipo 4</string>
+    <string name="bt_experimento5">Dashboard de cancelamento</string>
+    <string name="ticker_notificacao">Texto do Ticker</string>
+    <string name="titulo_notificacao">Título da Notificação</string>
+    <string name="tv_testeNotification">Clique no botão para gerar uma Notification Android</string>
+    <string name="tv_testeNotification_heads_up">Clique no botão para gerar uma Notification Heads-Up.</string>
+    <string name="tv_testeNotification_tela_de_bloqueio">Clique no botão para gerar uma Notification na Tela de Bloqueio.</string>
+    <string name="tv_testeNotification_com_acoes">Clique no botão para gerar uma Notification com Ações.</string>
+    <string name="tv_Atividade2">Activity de Resposta ao evento onClick da Notificação.</string>
+    <string name="bt_cancelar_notificacao">Cancelar Notificação</string>
+    <string name="bt_cancelar_todas_notificacoes">Cancelar Todas</string>
+
 </resources>

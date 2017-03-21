@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NotificationUm"
+            android:label="@string/title_experimento1"/>
+        <activity android:name=".NotificationDois"
+            android:label="@string/title_experimento2"/>
+        <activity android:name=".NotificationTres"
+            android:label="@string/title_experimento3"/>
+        <activity android:name=".NotificationQuatro"
+            android:label="@string/title_experimento4"/>
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_atividade2">
+        </activity>
     </application>
 
 </manifest>

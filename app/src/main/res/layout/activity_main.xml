@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.com.codepampa.experimento_um.MainActivity">
+    android:visibility="visible">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/bt_experimento1"
+        android:id="@+id/bt_experimento1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_experimento2"
+        android:id="@+id/bt_experimento2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_experimento3"
+        android:id="@+id/bt_experimento3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_experimento4"
+        android:id="@+id/bt_experimento4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_experimento5"
+        android:id="@+id/bt_experimento5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
